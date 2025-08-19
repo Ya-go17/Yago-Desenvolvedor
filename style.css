@@ -73,6 +73,10 @@ nav a.active {
     color: #8b949e;
 }
 
+.hero-content ul {
+    list-style: none;   
+}
+
 .btn {
     background-color: #00ffcc;
     color: #0d1117;
@@ -102,66 +106,66 @@ footer {
 
 /* Formulário de Contato */
 .form-contato {
-  max-width: 500px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.05);
-  padding: 30px;
-  border-radius: 16px;
-  backdrop-filter: blur(12px);
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
-  border: 1px solid rgba(0, 255, 255, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 16px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+    border: 1px solid rgba(0, 255, 255, 0.2);
 }
 
 .form-contato input,
 .form-contato textarea {
-  width: 100%;
-  padding: 12px;
-  border: 2px solid transparent;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  color: #fff;
-  transition: border 0.3s, background 0.3s;
+    width: 100%;
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    transition: border 0.3s, background 0.3s;
 }
 
 .form-contato input:focus,
 .form-contato textarea:focus {
-  outline: none;
-  background-color: rgba(255, 255, 255, 0.15);
-  border: 2px solid cyan;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 2px solid cyan;
 }
 
 ::placeholder {
-  color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .btn {
-  width: 100%;
-  padding: 14px;
-  background: linear-gradient(90deg, #00ffe0, #00d9ff);
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  color: #000;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-  box-shadow: 0 0 10px #00ffcc66;
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, #00ffe0, #00d9ff);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0 0 10px #00ffcc66;
 }
 
 .btn:hover {
-  transform: scale(1.03);
-  background: linear-gradient(90deg, #00d9ff, #00ffe0);
-  box-shadow: 0 0 15px #00ffccaa;
+    transform: scale(1.03);
+    background: linear-gradient(90deg, #00d9ff, #00ffe0);
+    box-shadow: 0 0 15px #00ffccaa;
 }
 
 #status-envio {
-  text-align: center;
-  margin-top: 10px;
-  font-weight: bold;
-  color: lightgreen;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: lightgreen;
 }
 
 .portfolio-grid {
